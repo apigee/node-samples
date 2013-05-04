@@ -1,0 +1,17 @@
+<TargetEndpoint name="default">
+  <ScriptTarget>
+    <ResourceURL>node://server.js</ResourceURL>
+    <EnvironmentVariables>
+      <EnvironmentVariable name="YELP_CONSUMER_KEY"><Value>XXX</Value></EnvironmentVariable>
+      <EnvironmentVariable name="YELP_CONSUMER_SECRET"><Value>XXX</Value></EnvironmentVariable>
+      <EnvironmentVariable name="YELP_TOKEN"><Value>XXX</Value></EnvironmentVariable>
+      <EnvironmentVariable name="YELP_TOKEN_SECRET"><Value>XXX</Value></EnvironmentVariable>
+      <EnvironmentVariable name="EVENTBRITE_APP_KEY"><Value>XXX</Value></EnvironmentVariable>
+      <EnvironmentVariable name="EVENTBRITE_USER_KEY"><Value>XXX</Value></EnvironmentVariable>
+      <EnvironmentVariable name="EVENTBRITE_EVENT_ID"><Value>XXX</Value></EnvironmentVariable>
+      <EnvironmentVariable name="CONF_LOCATION"><Value>detroit2013</Value></EnvironmentVariable>
+      <EnvironmentVariable name="BASE_HREF_URI"><Value>http://demo-2-prod.ctotest.apigeng.com/conferenceapi</Value></EnvironmentVariable>
+    </EnvironmentVariables>
+  </ScriptTarget>
+</TargetEndpoint>
+
