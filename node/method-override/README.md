@@ -1,6 +1,6 @@
 # "Method Override" Apigee Node.js Sample
 
-This application is a proxy that changes the HTTP method sent to a target. If a `X-HTTP-Method-Override` header or `method_override` query parameter is specified in a request, its value will be used as the method instead of the original method, and the header or query parameter will be removed. (HTTPBin)[http://httpbin.org/] is the default back-end service.
+This application is a proxy that changes the HTTP method sent to a target. If a `X-HTTP-Method-Override` header or `method_override` query parameter is specified in a request, its value will be used as the method instead of the original method, and the header or query parameter will be removed. [HTTPBin](http://httpbin.org/) is the default backend service.
     
 To deploy:
 
